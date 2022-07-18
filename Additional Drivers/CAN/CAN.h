@@ -1,9 +1,3 @@
-/*
- * CAN.h
- *
- *  Created on: 15-Jun-2022
- *      Author: Kunal
- */
 
 #ifndef CAN_H_
 #define CAN_H_
