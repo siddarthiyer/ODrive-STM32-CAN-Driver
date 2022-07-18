@@ -1,9 +1,3 @@
-W/*
- * CAN.c
- *
- *  Created on: May 26, 2022
- *      Author: Kunal
- */
 
 
 
