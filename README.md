@@ -1,4 +1,6 @@
 # ODrive-CAN-Driver-STM32
+
+Library written by me to control ODrive Motors with STM32 MCU via CAN </br></br>
 [Reference](https://docs.odriverobotics.com/v/beta/can-protocol.html)
 <h3> Functions: </h3>
 
