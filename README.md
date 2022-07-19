@@ -23,5 +23,35 @@ void Set_Axis_Node_ID(Axis Axis, uint32_t node_id);
 void Set_Limits(Axis Axis, float vel_lim, float curr_lim);
 void ODrive_RX_CallBack(Axis *AXIS);
 
+```
+
+<h4> Declare a struct of type 'Axis'</h4>
+
+```C
+struct Axis AXIS0;
+```
+
+<h4>
+  Struct declaration
+</h4>
+
+```C
+typedef struct Axis
+{
+	int AXIS_ID;
+	float AXIS_Encoder_Pos;
+	float AXIS_Encoder_Vel;
+	int32_t AXIS_Encoder_CPR;
+	int32_t AXIS_Encoder_Shadow;
+	float AXIS_Bus_Voltage;
+	float AXIS_Bus_Current;
+	float AXIS_Iq_Setpoint;
+	float AXIS_Iq_Measured;
+	uint32_t AXIS_Error;
+	uint8_t AXIS_Current_State;
+	uint8_t Controller_Status;
+	CAN_TypeDef *CAN_INSTANCE;
+}Axis;
+
 
 ```
