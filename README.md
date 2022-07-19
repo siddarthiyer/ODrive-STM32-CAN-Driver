@@ -36,8 +36,7 @@ struct Axis AXIS0;
 </h4>
 
 ```C
-typedef struct Axis
-{
+typedef struct Axis{
 	int AXIS_ID;
 	float AXIS_Encoder_Pos;
 	float AXIS_Encoder_Vel;
